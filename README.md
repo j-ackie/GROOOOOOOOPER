@@ -2,9 +2,7 @@
 
 This was the prompt I gave to ChatGPT
 
-```
-Create a React app (using functional components) that allows a Agile team to view current members, add or remove members, and to group members into subswarms/subgroups such that the members within the same group have not worked much with each other in the past.
-```
+> Create a React app (using functional components) that allows a Agile team to view current members, add or remove members, and to group members into subswarms/subgroups such that the members within the same group have not worked much with each other in the past.
 
 ChatGPT did produce an app that worked and fulfilled the needs I specified in the prompt. The app allowed you to add and remove team members. Based off of those team members, you could click a button to regroup members. While I specified to group members based off time worked with each other, ChatGPT decided to just pair members up.
 
