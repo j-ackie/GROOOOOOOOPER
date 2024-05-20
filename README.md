@@ -1,92 +1,19 @@
-# React Vitest Template
+### Does the code work? If not, what's broken?
 
-A starter template for building React apps with Vite. Includes Vitest for unit testing and
-a hefty .gitignore file.
+The code does work but only after I had to add a `export default` that ChatGPT forgot to include.
 
-# Requirements
+### How is the code better than what the team currently has?
 
-Node 20 or greater.
+I don't think the code is better than what the team currently has.
 
-## Usage
+### How is the code worse?
 
-```
-mkdir your-app-name
-cd your-app-name
-npx degit criesbeck/react-vitest
-npm install
-```
-If the third step hangs after printing ``> cloned criesbeck/react-vitest#HEAD``, 
-just control-C to exit then run ``npm install``.
+The file structure is unorganized.
 
-## Test
+### How many tries did it take to get the code? Main struggles?
 
-Verify that the initial app works. Run
+It only took 1 try to get the code. I felt like the biggest struggle I faced was finding the best prompt I could give to ChatGPT.
 
-```
-npm start
-```
+### Overall impression of the experience
 
-and open the URL displayed.
-
-Verify that the unit tests work with
-
-```
-npm test
-```
-
-Two tests should run and pass. 
-
-## Scripts
-
-**package.json** defines the following scripts:
-
-| Script           | Description                                         |
-| -----------------| --------------------------------------------------- |
-| npm start        | Runs the app in the development mode.               |
-| npm run dev      | Runs the app in the development mode.               |
-| npm run build    | Builds the app for production to the `dist` folder. |
-| npm run serve    | Serves the production build from the `dist` folder. |
-| npm test         | Starts a Jest-like test loop                        |
-| npm run coverage | Runs the tests, displays code coverage results      |
-
-
-## Git
-
-If everything is working, set up [your local and remote repositories](https://docs.github.com/en/get-started/importing-your-projects-to-github/importing-source-code-to-github/adding-locally-hosted-code-to-github#adding-a-local-repository-to-github-using-git).
-
-## Folder Structure
-
-```
-your-app-name
-├── node_modules
-├── public
-│   ├── favicon.svg
-│   └── robots.txt
-└── src
-    ├── App.css
-    ├── App.jsx
-    ├── index.css
-    ├── index.jsx
-    └── logo.svg
-├── .gitignore
-├── index.html
-├── package.json
-├── README.md
-├── vite.config.js
-```
-
-## Credits
-
-React-Vitest built and maintained by [Chris Riesbeck](https://github.com/criesbeck).
-
-Inspired by [SafdarJamal/vite-template-react](https://github.com/SafdarJamal/vite-template-react).
-Expanded to include Vitest and some sample tests.
-
-Thanks to Rich Harris for [degit](https://www.npmjs.com/package/degit).
-
-Gitignore file created with [the Toptal tool](https://www.toptal.com/developers/gitignore/api/react,firebase,visualstudiocode,macos,windows).
-
-
-## License
-
-This project is licensed under the terms of the [MIT license](./LICENSE).
+I think GenAI is definitely useful but I wouldn't use it to code up an entire project.
